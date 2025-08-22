@@ -11,10 +11,12 @@ foreach($tableau as $name){
 }
 
 
+
 echo 'La boucle DO WHILE' ."<br/>";
 do {
     echo $name.' Votre note est ' .($t+1). "<br/>";
     $t++;
+
 
 
 } while ($t <9);

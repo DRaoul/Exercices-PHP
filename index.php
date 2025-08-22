@@ -2,11 +2,14 @@
 <?php
 
 
-$user = array('Nicols', 'Geerge', 'Emmanuel', 'Marc');
+for ($i = 1; $i<=10; $i++) {
 
+    for ($j=1; $j<=10; $j++){
 
-foreach( $user as $note){
+        echo $i*$j." ";
 
-    echo $note . "\n". "<br/>";
+    }
+    echo '<br />'; 
+
 
 }
