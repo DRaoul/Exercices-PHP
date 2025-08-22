@@ -6,10 +6,10 @@ echo '<table border>
          <tr>
                 <th> Nombre </th>
                 <th> Carré  </th>
-                <th> Racine </th>
+                <th> Racine </th> 
          </tr>';
 
-            for( $i = 1; $i < 10; $i++) {
+            for( $i = 1; $i < 11; $i++) {
 
                 echo '<tr>
 
@@ -20,7 +20,6 @@ echo '<table border>
 
                 </tr>';
             }
-
 
 echo '</table>';
 
